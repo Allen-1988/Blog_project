@@ -1,0 +1,39 @@
+/*banner*/
+.banner{
+    height: 420px;   
+    background-image: url(https://github.com/Allen-9527/Blog_project/blob/main/image/pexels-alexy-almond-3756523.jpg?raw=true);
+    /*圖片滿版設定start*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    /*圖片滿版設定end*/   
+    
+    /*黑色透明板設定start*/
+    display: flex;/*中間標題h2、p位置設定*/
+    align-items: center; /*中間標題h2、p位置設定*/
+	justify-content: center;/*中間標題h2可以不用在.banner_text中設width參數*/  
+    /*黑色透明板設定end*/
+    margin-bottom: 50px;
+}
+.banner_text{
+    font-size: 36px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.294);
+    text-align: center;
+    padding: 30px 32px;
+    line-height: 1.5em;    
+}
+.banner p{
+    font-size: 16px;
+    color: #fff;    
+}
+
+/*fooditem*/
+.fooditem{
+    background-color: rgb(238, 243, 243);      
+    
+}
+
+
+
